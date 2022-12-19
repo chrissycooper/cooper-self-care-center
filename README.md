@@ -2,7 +2,7 @@
 
 ### Abstract:
 [//]: <> (Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
-Self Care Center is an application that provides the visitor with randomly-generated phrases that remind them of their inherent self worth and provide them with the means of positive self-empowerment through mindfulness. The visitor can recieve a randomly generated message from either an affirmation or mantra list. They can delete a message to prevent it from reappearing during the session. The user can decide to clear the message area and have the page reset to the original view as well. 
+Self Care Center is an application that provides the visitor with randomly-generated phrases that remind them of their inherent self worth and provide them with the means of positive self-empowerment through mindfulness. The visitor can recieve a randomly generated message from either an affirmation or mantra list. They can delete a message to prevent it from reappearing during the session, and an explanation of that function is shown to the user when they hover over the button. The user can decide to clear the message area and have the page reset to the original view as well. The application also shows each message only once until all messages are shown, at which point a message appears to let the guest know they will start seeing repeat messages.
 
 ### Installation Instructions:
 [//]: <> 
