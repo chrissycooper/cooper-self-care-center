@@ -4,6 +4,7 @@ var clearButton = document.querySelector("#clear");
 var deleteButton = document.querySelector("#delete");
 var radioButtons = document.querySelectorAll(".radio");
 var deleteMessageDiv = document.querySelector(".delete-message");
+var messageDeleted = document.querySelector(".message-deleted");
 
 messageButton.addEventListener("click", preventDefault);
 messageButton.addEventListener("click", displaySentiment);
@@ -69,4 +70,9 @@ function deleteCurrentMessage() {
             }
         } 
     }
+
+    show(messageDeleted);
+    setTimeout(() => {
+        hide(messageDeleted);
+    }, "2000");
 };
